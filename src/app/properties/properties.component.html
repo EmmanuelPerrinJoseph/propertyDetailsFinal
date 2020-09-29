@@ -1,0 +1,21 @@
+
+<div>
+<h2>The Properties Available for Designing</h2>
+<ul class="properties">
+    <li *ngFor="let property of properties" [class.selected]="property === selectedProperty"(click)="onSelect(property)">
+        <span class="badge">{{property.id}}</span> {{property.name}}
+    </li>
+</ul>
+</div>
+
+<div *ngIf="selectedProperty">
+
+    <h2>{{selectedProperty.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{selectedProperty.id}}</div>
+    <div>
+      <label>name:
+       
+      </label>
+    </div>
+  
+  </div>
