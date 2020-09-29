@@ -1,14 +1,9 @@
 import { Property } from './property';
 
 export const PROPERTIES: Property[] = [
-  { id: 1, name: 'Small size bedroom' },
-  { id: 2, name: 'Large Bathroom' },
-  { id: 3, name: 'Large Bathroom' },
-  { id: 4, name: 'Small kitchen' },
-  { id: 5, name: 'Design my kitchen' },
-  { id: 6, name: 'Design my bathroom' },
-  { id: 7, name: 'Master Bedroom' },
-  { id: 8, name: 'Patio for design' },
-  { id: 9, name: 'Huge master bedroom' },
-  { id: 10, name: 'Small microbedroom' }
+  {projectId: 1231254, name: 'Small size bedroom', dimensions:'18 x 20', color: 'white', description: 'Minimalism', customerID: 123123 },
+  {projectId: 234235, name: 'Large Bathroom', dimensions:'5 x 12', color: 'blue', description: 'Modern', customerID: 43151 },
+  {projectId: 2354246, name: 'Master Bedroom', dimensions:'22 x 30', color: 'olive green', description: 'Old', customerID: 135123  },
+  {projectId: 4356, name: 'Patio Setup ', dimensions:'20 x 20' , color: 'white', description: 'Modern Minimalism', customerID: 66354 },
+  {projectId: 34563456, name: 'Small size bedroom', dimensions:'12 x 16', color: 'yellow', description: 'Futuristic', customerID: 73583 }
 ];

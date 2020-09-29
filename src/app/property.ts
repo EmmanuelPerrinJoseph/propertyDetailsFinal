@@ -1,4 +1,10 @@
 export interface Property {
-    id: number;
+    projectId: number;
     name: string;
+    dimensions: string;
+    color: string;
+    description: string;
+    customerID: number;
+
   }
+  

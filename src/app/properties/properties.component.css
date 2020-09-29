@@ -6,7 +6,14 @@
   width: 15em;
     
   }
+
+  ul{
+      display: flex;
+  }
+
+
   .properties li {
+    
     font-family: 'Courier New', Courier, monospace;
     font-size: 13px;
     text-align: left;
@@ -14,35 +21,38 @@
     position: relative;
     left: 0;
     background-color: #d7d7d7;
-    margin: 2em;
-    padding: .8em 1em;
-    height: 5px;;
-    width: 230px;
-    border-radius: 5px;
+    margin: 3em;
+    padding: .8em 2em;
+    height: 80px;;
+    width: 80px;
+    border-radius: 12px;
     background: #D7D7D7;
     box-shadow:  13px 13px 26px #bfbfbf, 
              -13px -13px 26px #efefef;
-   
-    
   }
   .properties li:hover {
-    
-    
-    border-radius: 5px;
+    border-radius: 12px;
     background: #D7D7D7;
     box-shadow: inset 14px 14px 28px #bfbfbf, 
             inset -14px -14px 28px #efefef;
-    
-            
+           
   }
-  
   
   .properties li.selected {
-    background-color: #CFD8DC;
-    color: white;
+    border-radius: 12px;
+    background: #D7D7D7;
+    box-shadow: inset 14px 14px 28px #bfbfbf, 
+            inset -14px -14px 28px #efefef;
   }
   .properties li.selected:hover {
-    background-color: #BBD8DC;
-    color: white;
+    border-radius: 12px;
+    background: #D7D7D7;
+    box-shadow: inset 14px 14px 28px #bfbfbf, 
+            inset -14px -14px 28px #efefef;
   }
+ label
+ {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 13px;
+ }
  
